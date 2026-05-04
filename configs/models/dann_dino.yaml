@@ -1,0 +1,4 @@
+backbone: DINO
+method: DANN
+head_dropout: 0.3
+name: DANN_dino

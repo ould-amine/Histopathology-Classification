@@ -1,0 +1,10 @@
+backbone: Phikon
+method: LoRA
+
+r: 8
+lora_alpha: 16
+lora_dropout: 0.1
+head_dropout: 0.3
+target_modules: ["query", "value"]
+
+name: phikon_lora

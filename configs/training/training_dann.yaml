@@ -1,0 +1,33 @@
+seed: 0
+epochs: 30
+patience: 6
+
+matmul_precision: high
+precision: 16-mixed
+
+optimizer: AdamW
+weight_decay: 0.01
+
+min_lr: 1.0e-6
+loss:
+  classifier: BCEWithLogitsLoss
+  center: CrossEntropyLoss
+
+center_weight: 1
+lr:
+  classifier: 1e-3
+  center: 1e-3
+  backbone_a: 1e-5
+  backbone_b: 5e-5
+
+
+gradient_clip_val: 1.0
+accumulate_grad_batches: 1
+ema:
+  enabled: False
+  decay: 0.999
+
+
+
+
+

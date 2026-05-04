@@ -1,0 +1,5 @@
+backbone: DINO
+method: full_finetune
+head_dropout: 0.3
+
+name: dino_full_finetune

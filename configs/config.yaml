@@ -1,0 +1,7 @@
+defaults:
+  - dataset: dataset_base
+  - models: dino_lora
+  - training: training_base
+  - augmentation: HEStain_and_MT_Macenko
+
+

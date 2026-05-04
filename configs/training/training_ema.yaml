@@ -1,0 +1,22 @@
+seed: 0
+epochs: 30
+patience: 6
+
+matmul_precision: high
+precision: 16-mixed
+
+optimizer: AdamW
+weight_decay: 0.01
+
+
+
+loss: BCEWithLogitsLoss
+lr: 0.001
+min_lr: 1.0e-6
+
+gradient_clip_val: 1.0
+accumulate_grad_batches: 1
+
+ema:
+  enabled: True
+  decay: 0.999

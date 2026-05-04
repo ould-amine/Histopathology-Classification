@@ -1,0 +1,30 @@
+HEStain:
+  enabled: false
+  intensity_scale_range: 0.3
+  intensity_shift_range: 0.2
+  p: 0
+
+HistoNormalization:
+  enabled: false
+  p: 0.0
+  method: MT_Macenko
+  n_images: 10
+  validation: false
+
+ColorJitter:
+  brightness: 0.25
+  contrast: 0.25
+  saturation: 0.2
+  hue: 0.06
+  p: 0.8
+
+GaussNoise:
+  p: 0.15
+
+GaussianBlur:
+  p: 0.15
+
+ImageCompression:
+  p: 0.1
+
+name: Aug_No_HEStain_only

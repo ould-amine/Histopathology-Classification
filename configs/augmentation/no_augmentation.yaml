@@ -1,0 +1,30 @@
+HEStain:
+  enabled: false
+  intensity_scale_range: 0.0
+  intensity_shift_range: 0.0
+  p: 0.0
+
+HistoNormalization:
+  enabled: false
+  p: 0.0
+  method: MT_Macenko
+  n_images: 10
+  validation: false
+
+ColorJitter:
+  brightness: 0.0
+  contrast: 0.0
+  saturation: 0.0
+  hue: 0.0
+  p: 0.0
+
+GaussNoise:
+  p: 0.0
+
+GaussianBlur:
+  p: 0.0
+
+ImageCompression:
+  p: 0.0
+
+name: no_augmentation
